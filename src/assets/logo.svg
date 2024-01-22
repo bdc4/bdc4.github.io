@@ -1,6 +1,58 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M261.126 140.65L164.624 307.732L256.001 466L377.028 256.5L498.001 47H315.192L261.126 140.65Z" fill="#1697F6"/>
-<path d="M135.027 256.5L141.365 267.518L231.64 111.178L268.731 47H256H14L135.027 256.5Z" fill="#AEDDFF"/>
-<path d="M315.191 47C360.935 197.446 256 466 256 466L164.624 307.732L315.191 47Z" fill="#1867C0"/>
-<path d="M268.731 47C76.0026 47 141.366 267.518 141.366 267.518L268.731 47Z" fill="#7BC6FF"/>
+<svg xmlns="http://www.w3.org/2000/svg" color-interpolation-filters="sRGB" style="margin:auto"
+  version="1.0" viewBox="0 0 340 250">
+  <rect width="100%" height="100%" fill="none" class="background" />
+  <rect width="100%" height="100%" fill="url(#watermark)" class="watermarklayer" />
+  <g fill="#fff" class="iconblsvg-g iconsvg">
+    <g class="tp-name">
+      <path
+        d="M61.886 109.05c0-1.76 1.54-3.3 3.3-3.3h7.48c1.87 0 3.3 1.54 3.3 3.3V141c0 1.76-1.49 3.25-3.3 3.25h-7.48c-1.76 0-3.3-1.49-3.3-3.25Zm9.13 1.65h-4.18v28.6h4.18Zm33.11 28.6v-28.65h1.87v-4.9h-8.69v4.45l-4.24 10.18-3.95-9.85v-4.78h-8.75v4.9h1.87v28.65h-1.87v4.95h8.75v-4.95h-1.77v-19.53l3.75 8.8h4.01l4.07-8.8v19.53h-1.87v4.95h8.69v-4.95Zm25.69-28.65v-4.9h-8.75v4.9h1.93v16.05l-5.34-16.05h1.82v-4.9h-9.08v4.9h1.82v28.65h-1.82v4.95h8.75v-4.95h-1.98v-17.6l5.61 17.6h-1.87v4.95h8.91v-4.95h-1.87v-28.65Zm13.14 0v-4.9h-8.74v4.9h1.87v28.65h-1.87v4.95h8.74v-4.95h-1.93v-28.65Z"
+        data-gra="path-name" />
+      <g mask="url(#a)" transform="translate(145.956 101.9)">
+        <g class="imagesvg">
+          <path fill="none" d="M0 0h39.998v46.2H0z" class="image-rect" />
+          <svg width="39.998" height="46.2" class="image-svg-svg primary" filter="url(#b)"
+            style="overflow:visible">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0.3 93 106.8">
+              <path fill="none" stroke="#202121" stroke-miterlimit="10" stroke-width="4"
+                d="M61.9 96.2 17.4 70.5V36.9l29.1-16.8 29.1 16.8v33.6L31.1 96.2M2 28v51.4l44.5 25.7L91 79.4V28L46.5 2.3 2 28zm89 51.4L2 28m89 0L2 79.4" />
+            </svg>
+          </svg>
+          <defs>
+            <filter id="b">
+              <feColorMatrix class="icon-fecolormatrix"
+                values="0 0 0 0 0.99609375 0 0 0 0 0.99609375 0 0 0 0 0.99609375 0 0 0 1 0" />
+            </filter>
+          </defs>
+        </g>
+        <path fill="url(#c)" d="M0 0h51.998v58.2H0z" style="pointer-events:none"
+          transform="translate(-6 -6)" />
+      </g>
+      <path
+        d="M202.544 119.5c.98-.27 1.7-1.32 1.7-2.7v-7.75c0-1.76-1.43-3.3-3.3-3.3h-11.99v4.95h1.81v28.6h-1.81v4.95h12.59c1.82 0 3.3-1.49 3.3-3.25v-18.25c0-1.38-.82-2.92-2.3-3.25Zm-3.25-8.8v7.04l-3.58 1.71v-8.75Zm.6 28.6h-4.18v-14.74l4.18-1.98Zm25.03 0v-16.44c0-1.38-.83-2.92-2.31-3.25.99-.27 1.7-1.32 1.7-2.7v-7.86c0-1.76-1.43-3.3-3.29-3.3h-12v4.9h1.82v28.65h-1.82v4.95h7.82v-4.95h-1.05V125l4.18-1.93v16.23h-.94v4.95h7.76v-4.95Zm-5.55-22-3.58 1.7v-8.3h3.58Zm26.12 22h-7.81v-17.66h5.23v-4.94h-5.23v-6h7.43v-4.95H230.924v4.95h1.81v28.6h-1.81v4.95h14.57Zm32.62-28.65v-4.9h-8.7v4.9h1.43l-2.2 21.99-3.3-26.89h-5.11l-3.3 27.01-2.26-22.11h1.44v-4.9h-8.7v4.9h2.15l3.08 28.65h-.99v4.95h10.45v-4.95h-.88l1.59-12.65 1.49 12.65h-.88v4.95h10.45v-4.95h-.99l3.08-28.65Z"
+        data-gra="path-name-1" />
+    </g>
+  </g>
+  <defs>
+    <linearGradient id="c" x1="0" x2="0" y1="1" y2="0">
+      <stop offset="0%" stop-color="#00c9ff" />
+      <stop offset="100%" stop-color="#92fe9d" />
+    </linearGradient>
+    <filter id="d" filterUnits="userSpaceOnUse">
+      <feColorMatrix values="0 0 0 0 0.99609375 0 0 0 0 0.99609375 0 0 0 0 0.99609375 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <mask id="a">
+    <g filter="url(#d)">
+      <g class="imagesvg">
+        <path fill="#fff" fill-opacity="0" stroke-width="2" d="M0 0h39.998v46.2H0z"
+          class="image-rect" />
+        <svg width="39.998" height="46.2" class="image-svg-svg primary" style="overflow:visible">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0.3 93 106.8">
+            <path fill="none" stroke="#202121" stroke-miterlimit="10" stroke-width="4"
+              d="M61.9 96.2 17.4 70.5V36.9l29.1-16.8 29.1 16.8v33.6L31.1 96.2M2 28v51.4l44.5 25.7L91 79.4V28L46.5 2.3 2 28zm89 51.4L2 28m89 0L2 79.4" />
+          </svg>
+        </svg>
+      </g>
+    </g>
+  </mask>
 </svg>
