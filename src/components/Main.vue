@@ -1,60 +1,49 @@
 <template>
-  <v-container style="max-width: 720px;">
-    <v-row class="text-center">
-      <v-col cols="12">
-        <div class="omni-logo-container">
-        </div>
+  <v-row class="text-center">
+    <v-col cols="12">
+      <div class="omni-logo-container"></div>
+      <div class="text-body-2 font-weight-light mb-n1">Owned and operated by Bryce Gelinas</div>
+    </v-col>
+  </v-row>
 
-        <div class="text-body-2 font-weight-light mb-n1">Owned and operated by Bryce Gelinas</div>
+  <v-row>
+    <v-col cols="12">
+      <v-tabs v-model="tab" bg-color="bg-primary" align-tabs="center" stacked>
+        <v-tab :value="1">
+          <v-icon>mdi-file-account</v-icon>
+          Experience
+        </v-tab>
 
-        <!--h1 class="text-h2 font-weight-bold">Services</h1-->
-      </v-col>
-    </v-row>
+        <v-tab :value="2">
+          <v-icon>mdi-tools</v-icon>
+          Projects
+        </v-tab>
 
-    <v-row>
-      <v-col cols="12">
-        <v-timeline>
-          <v-timeline-item v-for="card in cards" :key="card.title">
-            <template v-slot:opposite>
-              <div>
-                <v-img :width="300" aspect-ratio="16/9" cover :src="card.img"></v-img>
-              </div>
-            </template>
-            <div>
-              <div class="text-h6">{{ card.title }}</div>
-              <div class="text-subtitle-1 text-primary">{{ card.subtitle }}</div>
-              <p>
-                {{ card.text }}
-              </p>
-            </div>
-          </v-timeline-item>
-        </v-timeline>
-      </v-col>
-    </v-row>
-  </v-container>
+        <v-tab :value="3">
+          <v-icon>mdi-message-outline</v-icon>
+          Contact Info
+        </v-tab>
+      </v-tabs>
+
+      <v-window v-model="tab">
+        <v-window-item :value="1">
+          <Experience />
+        </v-window-item>
+        <v-window-item :value="2">
+          Test
+        </v-window-item>
+        <v-window-item :value="3">
+          Test
+        </v-window-item>
+      </v-window>
+    </v-col>
+  </v-row>
 </template>
 
 <script setup>
-const cards = [
-  {
-    title: 'ServiceNow Consulting',
-    subtitle: '10+ Years',
-    text: 'Bryce has been doing a lot of ServiceNow consulting, especially Service Portal. Lead portal developer on the Now Learning 2.0 UI Framework rewrite.',
-    img: '../src/assets/servicenow-logo.png'
-  },
-  {
-    title: 'Web Development',
-    subtitle: '12+ Years',
-    text: 'Responsible for several large, public facing websites, using Azure and AWS. Custom web apps, including Discord bots and webhooks. Sites include SW5e.com and n7.world',
-    img: '../src/assets/techlogos.png'
-  },
-  {
-    title: '3D Modeling/Printing',
-    subtitle: '5+ Years',
-    text: 'Specializing in functional printing and miniature printing, I will work with you to figure out what you need and draft up a part.',
-    img: '../src/assets/3dprinting-logo.jpg'
-  }
-]
+import { ref } from 'vue';
+const tabs = [];
+const tab = ref(1);
 </script>
 
 <style scoped>
