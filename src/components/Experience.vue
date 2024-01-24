@@ -1,12 +1,18 @@
 <template>
-  <v-container style="max-width: 720px;">
+  <v-container>
     <v-row>
       <v-col cols="12">
         <v-timeline>
           <v-timeline-item v-for="card in cards" :key="card.title">
             <template v-slot:opposite>
-              <div>
-                <v-img :width="300" aspect-ratio="16/9" cover :src="card.img"></v-img>
+              <div style="min-height: 200px;">
+                <v-img :width="300" aspect-ratio="16/9" cover :src="card.img">
+                  <template v-slot:placeholder>
+                    <v-row align="center" class="fill-height ma-0" justify="center" transition="fade-transition">
+                      <v-progress-circular color="grey lighten-5" indeterminate></v-progress-circular>
+                    </v-row>
+                  </template>
+                </v-img>
               </div>
             </template>
             <div>
